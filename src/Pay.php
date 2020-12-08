@@ -38,7 +38,6 @@ class Pay
     {
         $this->config = new Config($config);
 
-        $this->registerLogService();
         $this->registerEventService();
     }
 
